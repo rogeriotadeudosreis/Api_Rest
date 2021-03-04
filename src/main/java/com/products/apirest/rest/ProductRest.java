@@ -22,7 +22,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping(value = "/api")
 @Api(value = "API REST Produtos")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*") // de qualquer url pode-se acessar esta aplicação
 public class ProductRest {
 
 	@Autowired
